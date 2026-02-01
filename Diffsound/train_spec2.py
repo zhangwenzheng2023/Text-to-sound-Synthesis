@@ -16,7 +16,7 @@ from sound_synthesis.engine.solver_spec import Solver
 from sound_synthesis.distributed.launch import launch
 import datetime
 import numpy  as np
-
+##################################################################################
 NODE_RANK = os.environ['INDEX'] if 'INDEX' in os.environ else 0
 NODE_RANK = int(NODE_RANK)
 MASTER_ADDR, MASTER_PORT = (os.environ['CHIEF_IP'], 22275) if 'CHIEF_IP' in os.environ else ("127.0.0.1", 29500)
