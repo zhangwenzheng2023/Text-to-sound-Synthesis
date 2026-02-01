@@ -148,7 +148,7 @@ def main_worker(local_rank, args):
     # get logger
     logger = Logger(args)
     logger.save_config(config)
-
+#################################################44444444444444444444444444444444444
     # get model 
     model = build_model(config, args)
     # print(model)
